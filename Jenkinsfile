@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Run Tests') {
       steps {
-        sh 'python tests.py'
+        sh 'ls -al'
       }
     }
 

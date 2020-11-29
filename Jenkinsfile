@@ -6,9 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('Run image') {
+    stage('Run Tests') {
       steps {
-        sh 'python --version'
+        sh 'python tests.py'
       }
     }
 

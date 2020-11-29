@@ -6,9 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('Run image') {
+    stage('Run Tests') {
       steps {
-        sh 'docker images'
+        sh 'python app/tests.py'
       }
     }
 

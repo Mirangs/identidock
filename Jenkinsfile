@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Run image') {
       steps {
-        sh 'docker images'
+        sh 'python --version'
       }
     }
 
